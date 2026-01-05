@@ -1,0 +1,25 @@
+{
+  "topic": "How websockets work",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "text": "Websockets enable real-time communication."
+    },
+    {
+      "scene_id": 2,
+      "text": "Client initiates connection request."
+    },
+    {
+      "scene_id": 3,
+      "text": "Server accepts the request."
+    },
+    {
+      "scene_id": 4,
+      "text": "Data is sent bi-directionally."
+    },
+    {
+      "scene_id": 5,
+      "text": "Connection remains open always."
+    }
+  ]
+}

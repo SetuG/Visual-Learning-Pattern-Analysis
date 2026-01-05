@@ -1,0 +1,97 @@
+{
+  "topic": "How websockets work",
+  "style_profile": {
+    "style": "2D explainer",
+    "line_width": 4,
+    "font_size_title": 48,
+    "font_size_body": 28,
+    "colors": {
+      "primary": "blue",
+      "neutral": "white"
+    }
+  },
+  "scenes": [
+    {
+      "scene_id": 1,
+      "text": "Websockets enable real-time communication.",
+      "elements": [
+        {
+          "type": "title"
+        }
+      ]
+    },
+    {
+      "scene_id": 2,
+      "text": "Client initiates connection request.",
+      "elements": [
+        {
+          "type": "circle",
+          "label": "Client",
+          "pos": "left"
+        },
+        {
+          "type": "circle",
+          "label": "Server",
+          "pos": "right"
+        },
+        {
+          "type": "arrow",
+          "from": "left",
+          "to": "right"
+        }
+      ]
+    },
+    {
+      "scene_id": 3,
+      "text": "Server accepts the request.",
+      "elements": [
+        {
+          "type": "circle",
+          "label": "Client",
+          "pos": "left"
+        },
+        {
+          "type": "circle",
+          "label": "Server",
+          "pos": "right"
+        },
+        {
+          "type": "arrow",
+          "from": "left",
+          "to": "right"
+        }
+      ]
+    },
+    {
+      "scene_id": 4,
+      "text": "Data is sent bi-directionally.",
+      "elements": [
+        {
+          "type": "rectangle",
+          "label": "Concept"
+        }
+      ]
+    },
+    {
+      "scene_id": 5,
+      "text": "Connection remains open always.",
+      "elements": [
+        {
+          "type": "circle",
+          "label": "Client",
+          "pos": "left"
+        },
+        {
+          "type": "circle",
+          "label": "Server",
+          "pos": "right"
+        },
+        {
+          "type": "arrow",
+          "from": "left",
+          "to": "right"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+manim==0.18.1
+numpy==1.26
+pillow==10.0.0
+scipy==1.11.1
